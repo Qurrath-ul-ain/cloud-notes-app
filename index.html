@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cloud Notes App</title>
+<link rel="stylesheet" href="style.css">
+
+<!-- Firebase CDN -->
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+
+</head>
+
+<body>
+
+<h2>☁️ Cloud Notes Application</h2>
+
+<input type="text" id="noteInput" placeholder="Write your note">
+<button onclick="addNote()">Add Note</button>
+
+<h3>Saved Notes</h3>
+<ul id="notesList"></ul>
+
+<script src="script.js"></script>
+
+</body>
+</html>
